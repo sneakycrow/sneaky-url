@@ -1,0 +1,7 @@
+{
+  "env": {
+    "sneaky_key": "@sneaky_key",
+    "graphql_endpoint": "@graphql_endpoint",
+    "graphql_key": "@graphql_key"
+  }
+}
