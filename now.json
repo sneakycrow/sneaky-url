@@ -3,5 +3,17 @@
     "sneaky_key": "@sneaky_key",
     "graphql_endpoint": "@graphql_endpoint",
     "graphql_key": "@graphql_key"
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "methods": ["POST"],
+      "dest": "/api/create-link.ts"
+    },
+    {
+      "src": "/(.*)",
+      "methods": ["GET"],
+      "dest": "/api/get-link.ts"
+    }
+  ]
 }
